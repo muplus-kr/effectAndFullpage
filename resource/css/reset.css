@@ -65,6 +65,9 @@ section,
 summary {
     display: block;
 }
+figure {
+    margin: 0;
+}
 audio,
 canvas,
 video {
