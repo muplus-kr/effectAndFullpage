@@ -1,0 +1,212 @@
+@charset "utf-8";
+
+* {
+    outline: 0 !important;
+}
+#wrap {
+    position: relative;
+    min-height: 100%;
+}
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+}
+.inner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#header h1 {
+    text-align: center;
+    line-height: 80px;
+}
+.container {
+    padding-top: 80px;
+}
+.section {
+    text-align: center;
+}
+.section1 {
+    background-color: antiquewhite;
+}
+.section2 {
+    background-color: beige;
+}
+.section3 {
+    background-color: cornsilk;
+}
+.section4 {
+    background-color: darksalmon;
+}
+.section5 {
+    background-color: ivory;
+}
+.footer {
+    background-color: #fff;
+}
+.footer h2 {
+    line-height: 80px;
+    text-align: center;
+}
+.clearfix::after,
+.clearfix::before {
+    content: "";
+    display: block;
+    clear: both;
+}
+/* shadow */
+
+.shadow li {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.shadow li span {
+    position: relative;
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: #fff;
+    transition: all 0.3s;
+}
+.shadow li span::before {
+    content: "";
+    opacity: 0;
+    position: absolute;
+    left: 5%;
+    top: calc(100% + 10px);
+    width: 90%;
+    height: 10px;
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+    transition: all 0.3s;
+}
+.shadow li a:hover span {
+    transform: translateY(-10px);
+}
+.shadow li a:hover span::before {
+    opacity: 1;
+}
+.shadow li h4 {
+    padding-top: 30px;
+    font-size: 20px;
+    color: #222;
+    font-weight: 900;
+}
+/* //shadow */
+
+/* border-1 */
+.border-1 {
+    overflow: hidden;
+}
+.border-1 li {
+    position: relative;
+    float: left;
+    width: 20%;
+}
+.border-1 li:nth-child(1) {
+    background-color: lightblue;
+}
+.border-1 li:nth-child(2) {
+    background-color: lightcyan;
+}
+.border-1 li:nth-child(3) {
+    background-color: lightskyblue;
+}
+.border-1 li:nth-child(4) {
+    background-color: lightsteelblue;
+}
+.border-1 li:nth-child(5) {
+    background-color: lightseagreen;
+}
+.border-1 li a {
+    display: block;
+    height: 300px;
+    padding: 30px;
+}
+.border-1 li a h3 {
+    color: #222;
+    font-size: 26px;
+    font-weight: 900;
+    text-align: left;
+}
+.border-1 li a p {
+    color: #222;
+    font-size: 18px;
+    margin-top: 15px;
+    text-align: left;
+    font-weight: 700;
+}
+.border-1 li a span {
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    color: #222;
+    font-size: 18px;
+    font-weight: 700;
+}
+.border-1 li::before {
+    content: "";
+    opacity: 0.7;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 0;
+    height: 5px;
+    background-color: #000;
+    transition: all 0.3s 0.3s ease-out;
+}
+.border-1 li::after {
+    content: "";
+    opacity: 0.7;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    width: 0;
+    height: 5px;
+    background-color: #000;
+    transition: all 0.3s 0.3s ease-out;
+}
+.border-1 li a::before {
+    content: "";
+    opacity: 0.7;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    width: 5px;
+    height: 0;
+    background-color: #000;
+    transition: all 0.3s ease-out;
+}
+.border-1 li a::after {
+    content: "";
+    opacity: 0.7;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    width: 5px;
+    height: 0;
+    background-color: #000;
+    transition: all 0.3s ease-out;
+}
+.border-1 li:hover::before {
+    width: 100%;
+}
+.border-1 li:hover::after {
+    width: 100%;
+}
+.border-1 li:hover a::before {
+    height: 100%;
+}
+.border-1 li:hover a::after {
+    height: 100%;
+}
+/* // border-1 */

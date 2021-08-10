@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>fullpage</title>
+        <link rel="stylesheet" href="../resource/css/reset.css" type="text/css" />
+        <link rel="stylesheet" href="../resource/css/font.css" type="text/css" />
+        <link rel="stylesheet" href="../resource/lib/fullpage/jquery.fullpage.css" />
+        <link rel="stylesheet" href="../resource/css/common.css" type="text/css" />
+
+        <script src="../resource/js/jquery-1.11.2.js"></script>
+        <script src="../resource/lib/fullpage/jquery.fullpage.js"></script>
+        <script src="../resource/js/common.js"></script>
+    </head>
+    <body>
+        <div id="wrap">
+            <header id="header">
+                <div class="inner"><h1>HEADER</h1></div>
+            </header>
+
+            <!-- https://github.com/alvarotrigo/fullPage.js -->
+
+            <!-- 섹션은 wrapper 내부에 배치되어야 합니다. wrapper -> #fullpage -->
+            <!-- 각 섹션은 section 클래스를 포함하는 요소로 정의 됩니다. -->
+            <!-- 기본적으로 높이가 100vh로 잡혀있지만 이보다 더 크거나 작게 만들려면 fp-auto-height 클래스를 추가해야 합니다. -->
+            <!-- fp-auto-height-responsive 클래스를 추가하면 반응형 모드가 시작될 때까지 섹션이 전체 화면으로 표시된 후 컨텐츠에 필요한 크기를 사용합니다. -->
+
+            <div class="container" id="fullpage">
+                <!-- shadow -->
+                <div class="section section1">
+                    <div class="inner">
+                        <ul class="shadow clearfix">
+                            <li>
+                                <a href="#none">
+                                    <span></span>
+                                    <h4>text</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#none">
+                                    <span></span>
+                                    <h4>text</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#none">
+                                    <span></span>
+                                    <h4>text</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#none">
+                                    <span></span>
+                                    <h4>text</h4>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- // shadow -->
+
+                <!-- border-1 -->
+                <div class="section section2">
+                    <div class="inner">
+                        <ul class="border-1">
+                            <li>
+                                <a href="#none">
+                                    <h3>제목</h3>
+                                    <p>내용</p>
+                                    <span>바로가기</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#none">
+                                    <h3>제목</h3>
+                                    <p>내용</p>
+                                    <span>바로가기</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#none">
+                                    <h3>제목</h3>
+                                    <p>내용</p>
+                                    <span>바로가기</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#none">
+                                    <h3>제목</h3>
+                                    <p>내용</p>
+                                    <span>바로가기</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#none">
+                                    <h3>제목</h3>
+                                    <p>내용</p>
+                                    <span>바로가기</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- // border-1 -->
+
+                <div class="section section3">
+                    <div class="inner"><h1>section3</h1></div>
+                </div>
+                <div class="section section4">
+                    <div class="inner"><h1>section4</h1></div>
+                </div>
+                <div class="section section5">
+                    <div class="inner"><h1>section5</h1></div>
+                </div>
+                <div class="section footer fp-auto-height">
+                    <div class="inner"><h2>FOOTER</h2></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
