@@ -64,8 +64,8 @@
     display: block;
     clear: both;
 }
-/* shadow */
 
+/* shadow */
 .shadow li {
     float: left;
     width: 25%;
@@ -218,8 +218,6 @@
 /* // border-1 */
 
 /* Panorama */
-.sj_panorama {
-}
 .sj_panorama .pano_cont {
     position: relative;
     overflow: hidden;

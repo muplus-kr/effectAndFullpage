@@ -1,5 +1,5 @@
-# hoverEventAndFullpage
+# effectAndFullpage
 
 ## DEMO Link
 
-<https://muplus-kr.github.io/hoverEventAndFullpage/html/index.html>
+<https://muplus-kr.github.io/effectAndFullpage/html/index.html>
