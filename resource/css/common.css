@@ -8,6 +8,10 @@ html {
     overflow-x: hidden;
 }
 
+#wrap {
+    display: none;
+}
+
 .intro-box {
     overflow: hidden;
     position: absolute;
