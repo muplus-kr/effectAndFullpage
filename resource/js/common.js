@@ -76,14 +76,14 @@ var SjPano = function () {
 
     _init();
 
-    // 인트로 효과
+    // intro
     $(window).on("load", function () {
         $(".intro-box").addClass("on");
         setTimeout(function () {
             $(".intro-box").fadeOut(200);
         }, 1500);
         setTimeout(function () {
-            $("#wrap").fadeIn(300);
+            $("#wrap").fadeIn(200);
         }, 2000);
     });
 };
