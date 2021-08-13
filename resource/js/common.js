@@ -80,10 +80,10 @@ var SjPano = function () {
     $(window).on("load", function () {
         $(".intro-box").addClass("on");
         setTimeout(function () {
-            $(".intro-box").fadeOut(400);
+            $(".intro-box").fadeOut(200);
         }, 1500);
         setTimeout(function () {
-            $("#wrap").fadeIn(500);
+            $("#wrap").fadeIn(300);
         }, 2000);
     });
 };
